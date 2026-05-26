@@ -1,0 +1,14 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: TicketUpsells
+flagType: boolean
+description: "tab\tcharacter2"
+labels:
+
+availableValues:
+  - "false"
+  - "true"
+
+isPermanent: false

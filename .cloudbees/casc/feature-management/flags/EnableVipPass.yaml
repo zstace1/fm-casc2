@@ -1,0 +1,17 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: EnableVipPass
+flagType: boolean
+description: |-
+    PS Official
+
+    Pending
+labels:
+
+availableValues:
+  - "false"
+  - "true"
+
+isPermanent: false

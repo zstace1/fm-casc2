@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: MaxTicketQuantity
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: 4
+
+conditions: []

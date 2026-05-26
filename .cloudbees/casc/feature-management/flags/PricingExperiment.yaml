@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: PricingExperiment
+flagType: string
+description: ""
+labels:
+
+availableValues:
+  - control
+  - discount10
+  - bundle
+
+isPermanent: false

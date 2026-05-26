@@ -1,0 +1,18 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: MaintenanceMode
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: true
+
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: InternalTesters
+    flagValue: true
